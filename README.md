@@ -23,5 +23,10 @@ Viu a oportunidade de melhorar de alguma forma o repositório? Sinta-se à vonta
 ### Comandos básicos:
 
 - `git flow init` inicia o git e permite personalizar as branches
-- `git flow {branch} start {descrição}` inicia uma nova branch (git flow feature start welcome)
-- ``
+- `git flow {branch} start {descrição}` inicia uma nova branch e você pode usar "git add" e "git commit" normalmente.
+- `git flow {branch} finish {descrição}` finaliza a branch.
+
+#### Exemplos:
+
+- git flow feature start welcome
+- git flow feature finish welcome
