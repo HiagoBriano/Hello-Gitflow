@@ -24,7 +24,7 @@ Viu a oportunidade de melhorar de alguma forma o repositório? Sinta-se à vonta
 
 - `git flow init` inicia o git e permite personalizar as branches
 - `git flow {branch} start {descrição}` inicia uma nova branch e você pode usar "git add" e "git commit" normalmente.
-- `git flow {branch} finish {descrição}` finaliza a branch.
+- `git flow {branch} finish {descrição}` finaliza a branch fazendo marge com a branch devolops e apagando a branch atual.
 
 #### Exemplos:
 
